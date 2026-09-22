@@ -6,7 +6,13 @@
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
+  background-color: var(--container-color);
+}
+
+.portfolio__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
 
 .portfolio__img {
@@ -14,6 +20,7 @@
   width: 100%;
   object-fit: cover;
   vertical-align: middle;
+  transition: transform 0.5s ease;
 }
 
 .portfolio__hover {
@@ -23,10 +30,18 @@
   display: grid;
   place-items: center;
   opacity: 0;
-  transition: all 0.5s ease;
+  align-content: center;
+  row-gap: 8px;
+  transition: opacity 0.5s ease;
 }
 
-.portfolio__item:hover .portfolio__hover {
+.portfolio__item:hover .portfolio__img,
+.portfolio__item:focus-within .portfolio__img {
+  transform: scale(1.08);
+}
+
+.portfolio__item:hover .portfolio__hover,
+.portfolio__item:focus-within .portfolio__hover {
   opacity: 1;
 }
 
@@ -40,6 +55,11 @@
 
 .portfolio__item:hover .portfolio__title {
   transform: translateY(0);
+}
+
+.portfolio__action {
+  color: var(--text-white);
+  font-size: var(--small-font-size);
 }
 
 .portfolio__modal {

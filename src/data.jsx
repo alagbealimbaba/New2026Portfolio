@@ -12,7 +12,6 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-3.png";
 import Work3 from "./assets/project-2.png";
-import Work4 from "./assets/To-do.png";
 import Work5 from "./assets/ipAddress.png";
 import Work6 from "./assets/TeachAssist.png";
 import Work7 from "./assets/bizwire.png";
@@ -237,6 +236,7 @@ export const portfolio = [
     id: 1,
     img: Work1,
     title: "Web Application",
+    url: "https://rock-paper-scissors-game-81.netlify.app",
     details: [
       {
         icon: <FiFileText />,
@@ -265,6 +265,7 @@ export const portfolio = [
     id: 2,
     img: Work2,
     title: "Web Application",
+    url: "https://advice-app1221.netlify.app",
     details: [
       {
         icon: <FiFileText />,
@@ -293,6 +294,7 @@ export const portfolio = [
     id: 3,
     img: Work3,
     title: "Landing Page",
+    url: "https://portfolio-template1xx.netlify.app/",
     details: [
       {
         icon: <FiFileText />,
@@ -318,37 +320,10 @@ export const portfolio = [
   },
 
   {
-    id: 4,
-    img: Work4,
-    title: "Web Application",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "To-Do App",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Netlify",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML5, CSS, Javascript",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://to-do-app-v1-0.netlify.app/",
-      },
-    ],
-  },
-
-  {
     id: 5,
     img: Work5,
     title: "Web Application",
+    url: "https://ip-address-tracker-v1-0.netlify.app/",
     details: [
       {
         title: "Project : ",
@@ -373,6 +348,7 @@ export const portfolio = [
     id: 6,
     img: Work6,
     title: "Web Application",
+    url: "https://www.teachassist.ai",
     details: [
       {
         icon: <FiFileText />,
