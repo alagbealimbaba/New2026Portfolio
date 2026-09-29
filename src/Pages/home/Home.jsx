@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home__data">
           <h1 className="home__title">
             {" "}
-            <span>I'm Alim Alagbe. </span>Software Engineer
+            <span>I'm Maryam Dere. </span>Software Engineer
           </h1>
           <p className="home__description">
             Software Engineer with 3+ years of experience building modern and responsive web applications, with a
